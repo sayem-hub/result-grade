@@ -51,4 +51,7 @@ Secondly you have to show the grade message (Like as: “You got A+”) by follo
         echo "You got 00!";
     }
 
+
+    //Output: You got A
+
 ?>
