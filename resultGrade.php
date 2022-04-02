@@ -29,28 +29,24 @@ Secondly you have to show the grade message (Like as: “You got A+”) by follo
     $totalSubj      = 4;
     $avgMarks       = $totalMarks / $totalSubj;
 
-    if ($avgMarks >= 80 && $avgMarks <= 100 ) {
+    if ($avgMarks >= 80 ) {
         echo "You got A+";
 
-    } else if ($avgMarks >= 70 && $avgMarks <= 79 ) {
+    } else if ($avgMarks >= 70 ) {
         echo "You got A";
 
-    } else if ($avgMarks >= 60 && $avgMarks <= 69){
+    } else if ($avgMarks >= 60 ){
         echo "You got A-";
 
-    } else if ($avgMarks >= 50 && $avgMarks <= 59){
+    } else if ($avgMarks >= 50){
           echo "You got B";
 
-    } else if ($avgMarks >= 40 && $avgMarks <= 49){
+    } else if ($avgMarks >= 40){
         echo "You got C";
 
-    } else if ($avgMarks >= 1 && $avgMarks <= 39){
-        echo "You got F";
-
     } else{
-        echo "You got 00!";
+        echo "You got F!";
     }
-
 
     //Output: You got A
 
